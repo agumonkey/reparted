@@ -13,7 +13,7 @@
 #You should have received a copy of the GNU General Public License
 #along with reparted.  If not, see <http://www.gnu.org/licenses/>.
 
-from exception import SizeError
+from .exception import SizeError
 
 size_units = {
     "B":    1,       # byte

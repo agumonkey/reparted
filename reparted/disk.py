@@ -13,10 +13,10 @@
 #You should have received a copy of the GNU General Public License
 #along with reparted.  If not, see <http://www.gnu.org/licenses/>.
 
-from conversion import *
-from exception import *
-from size import Size
-from partition import Partition
+from .conversion import *
+from .exception import *
+from .size import Size
+from .partition import Partition
 from functools import wraps
 import os
 

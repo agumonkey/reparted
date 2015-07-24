@@ -13,10 +13,10 @@
 #You should have received a copy of the GNU General Public License
 #along with reparted.  If not, see <http://www.gnu.org/licenses/>.
 
-from conversion import *
-from size import *
-from disk import Disk
-from exception import DeviceError
+from .conversion import *
+from .size import *
+from .disk import Disk
+from .exception import DeviceError
 import os
 
 device_type = {

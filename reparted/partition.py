@@ -1,6 +1,6 @@
-from conversion import *
-from exception import *
-from size import Size
+from .conversion import *
+from .exception import *
+from .size import Size
 import os
 
 partition_type = {
